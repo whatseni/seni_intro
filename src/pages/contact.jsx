@@ -1,1 +1,0 @@
-// github, email, blog 정보 페이지
