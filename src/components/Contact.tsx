@@ -5,7 +5,7 @@ export default function Contact() {
     <section>
       <h2>Contact Me</h2>
 
-      <div className="">
+      <div className="container flex content-center items-center">
         <article>
           <MdOutlineEmail className="contact__option-icon" />
           <h4>Email</h4>

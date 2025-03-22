@@ -4,23 +4,23 @@ import Link from "next/link";
 export default function Header() {
   return (
     <header className="h-screen pt-28 overflow-hidden">
-      <div className="container header__container">
-        <h3 className="text-sky-400">Hi</h3>
-        <h1 className="text-sky-400">I'm Seni</h1>
-        <h3 className="text-sky-400">Javascript Developer</h3>
-        <div className="mt-10 flex gap-5 jsutify-center">
+      <div className="container text-center h-full relative">
+        <h3 className="">Hi</h3>
+        <h1 className="">I'm Seni</h1>
+        <h3 className="">Javascript Developer</h3>
+        <div className="header__socials">
           <Link href="https://velog.io/@sodgyu/posts"
-            className="px-4 py-2 border border-sky-400 rounded-md text-sky-400 hover:bg-sky-400 hover:text-white transition-colors"
+            className=""
           >Blog</Link>
           <Link href="https://github.com/whatseni"
-            className="px-4 py-2 bg-sky-400 text-white rounded-md hover:bg-sky-500 transition-colors"
+            className=""
           >Github</Link>
         </div>
-        {/* <div className="bg-gradient-to-b from-sky-400 to-transparent w-88 h-120 absolute left-1/2 -translate-x-1/2 mt-16 rounded-t-full overflow-hidden p-6 pt-20">
-          <Image src="dfd" width={500} height={500} alt="me"/>
-        </div> */}
+        <div className="bg-gradient-to-b from-[var(--color-primary)] to-transparent w-88 h-[30rem] absolute left-1/2 transform -translate-x-1/2 mt-16 rounded-t-[12rem] overflow-hidden p-20 pb-6">
+          <Image src="" width={500} height={500} alt="me" />
+        </div>
 
-        <Link className="absoulte right-0 -mr-9 bottom-20 transform rotate-90 font-light text-lg" href="#contact">
+        <Link className="absolute -right-9 bottom-20 rotate-90 font-light text-lg" href="#contact">
           Scroll Down
         </Link>
       </div>
