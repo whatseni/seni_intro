@@ -12,6 +12,10 @@
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6);
   --transition: all 400ms ease;
+
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
 }
 
 html {
@@ -23,5 +27,19 @@ body {
 }
 
 .container {
-  @apply mx-auto px-4;
+  @apply mx-auto px-4 md:w-[var(--container-width-md)] sm:w-[var(--container-width-sm)];
+}
+
+section {
+  @apply mt-[8rem] md:mt-[6rem];
+}
+
+section > h2,
+section > h3,
+section > h5 {
+  @apply text-center text-[var(--color-primary)];
+}
+
+section > h2 {
+  @apply text-[var(--color-primary)] mb-[3rem] text-2xl;
 }
