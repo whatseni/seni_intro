@@ -9,21 +9,21 @@ export default function Footer() {
         SEEUN
       </Link>
 
-      <ul className="flex flex-wrap justify-center">
+      <ul className="flex flex-wrap justify-center gap-[2rem] mx-auto mb-[3rem]">
         <li>
-          <Link href="/" className="text-[var(--color-bg)]">Home</Link>
+          <Link href="#home" className="text-[var(--color-bg)]">Home</Link>
         </li>
         <li>
-          <Link href="/">ABOUT</Link>
+          <Link href="#about" className="text-[var(--color-bg)]">ABOUT</Link>
         </li>
         <li>
-          <Link href="/">SKILL</Link>
+          <Link href="#skills" className="text-[var(--color-bg)]">SKILL</Link>
         </li>
         <li>
-          <Link href="/">PROJECT</Link>
+          <Link href="#project" className="text-[var(--color-bg)]">PROJECT</Link>
         </li>
         <li>
-          <Link href="/">CONTACT</Link>
+          <Link href="#contact" className="text-[var(--color-bg)]">CONTACT</Link>
         </li>
       </ul>
 

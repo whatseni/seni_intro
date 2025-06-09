@@ -1,5 +1,4 @@
 @import "tailwindcss";
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -42,4 +41,8 @@ section > h5 {
 
 section > h2 {
   @apply text-[var(--color-primary)] mb-[3rem] text-2xl;
+}
+
+.active {
+  @apply bg-[var(--color-primary)] text-[var(--color-bg)];
 }
